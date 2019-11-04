@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light|Arvo|Monda');
+
+
+body{
+	background-color: #dff2e0;
+}
+p{
+	font-size: 18px;
+	line-height: 2;
+}
+.container{
+	margin-top: 30px;
+}
+.abcd{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 4vw;
+}
+@media screen and (max-width: 576px) {
+	.abcd{
+		font-size: 8vw;
+	}
+	p{
+		font-size: 3vw;
+		margin-bottom: 10px;
+	}
+	.container{
+		margin-top: auto;
+		
+	}
+	.potrait{
+		height: 24vh;
+	}
+}
