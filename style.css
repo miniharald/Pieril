@@ -1,84 +1,28 @@
-<<<<<<< HEAD
-.footer {
-    background-color: blue;
- 
-} 
-=======
-@import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light|Arvo|Monda');
-
-
 body{
-	background-color: #dff2e0;
+    background: aliceblue;
 }
-p{
-	font-size: 18px;
-	line-height: 2;
+.slide{
+    width: 45rem;
+    height: 30rem;
 }
-.container{
-	margin-top: 30px;
+.motto{
+    color: white;
+    height: 20rem;
+    background:rgb(36, 38, 49);
 }
-.abcd{
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 4vw;
+.rubrik{
+    height: 30rem;
+    color: white;
+    background:rgb(36, 38, 49);
+    
 }
-
-/*-----NAV.HTML-----*/
-.fa-1x {
-  font-size: 1.5rem !important;
+.title{
+    font-family: 'Satisfy', cursive;
 }
-.navbar-toggler.toggler-example {
-  cursor: pointer;
+.logo{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    height: 10rem;
+    /* border:solid 1px rgb(161, 20, 20); */
 }
-.dark-blue-text {
-  color: darkblue;
-}
-.dark-pink-text {
-  color: #ac003a;
-}
-.dark-amber-text {
-  color: #ff6f00;
-}
-.dark-teal-text {
-  color: #004d40;
-}
-
-.navbar-light .navbar-toggler {
-  border-color: rgba(0, 0, 0, 0) !important;
-}
-
-.navbar-brand img {
-  width: 15vw;
-}
-
-.dropdown-toggle::after {
-  content: none;
-}
-
-.hamburger .nav-link.active,
-.hamburger .show > .nav-link {
-  color: #007bff;
-  background-color: transparent;
-}
-
-.hamburger .nav-link {
-  padding: 0;
-}
-/*-----NAV.HTML-----*/
-
-@media screen and (max-width: 576px) {
-	.abcd{
-		font-size: 8vw;
-	}
-	p{
-		font-size: 3vw;
-		margin-bottom: 10px;
-	}
-	.container{
-		margin-top: auto;
-		
-	}
-	.potrait{
-		height: 24vh;
-	}
-}
->>>>>>> master
