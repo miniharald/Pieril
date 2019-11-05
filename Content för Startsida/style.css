@@ -2,8 +2,8 @@ body{
     background: aliceblue;
 }
 .slide{
-    width: 45rem;
-    height: 30rem;
+    width: 40rem;
+    height: 35rem;
 }
 .motto{
     color: white;
@@ -11,7 +11,7 @@ body{
     background:rgb(36, 38, 49);
 }
 .rubrik{
-    height: 30rem;
+    height: 35rem;
     color: white;
     background:rgb(36, 38, 49);
     
