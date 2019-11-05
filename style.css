@@ -14,7 +14,8 @@ p{
 .abcd{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 4vw;
-	
+
+<!-- NAV.HTML -->
 .fa-1x {
   font-size: 1.5rem !important;
 }
@@ -55,6 +56,7 @@ p{
 .hamburger .nav-link {
   padding: 0;
 }
+<-- NAV.HTML --!>
 	
 }
 @media screen and (max-width: 576px) {
