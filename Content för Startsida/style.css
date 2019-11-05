@@ -1,0 +1,28 @@
+body{
+    background: aliceblue;
+}
+.slide{
+    width: 45rem;
+    height: 30rem;
+}
+.motto{
+    color: white;
+    height: 20rem;
+    background:rgb(36, 38, 49);
+}
+.rubrik{
+    height: 30rem;
+    color: white;
+    background:rgb(36, 38, 49);
+    
+}
+.title{
+    font-family: 'Satisfy', cursive;
+}
+.logo{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    height: 10rem;
+    /* border:solid 1px rgb(161, 20, 20); */
+}
