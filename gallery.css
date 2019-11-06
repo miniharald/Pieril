@@ -1,0 +1,117 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(8, 10vw);
+  grid-gap: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-img-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery-img-9 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.gallery-img-11 {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.gallery-img-12 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.gallery-img-13 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.gallery-img-14 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.gallery-img-15 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+.gridingrid {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-auto-flow: column;
+  display: grid;
+  grid: subgrid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-delay: 100ms;
+  transition: all 300ms;
+  opacity: 0;
+}
+
+figcaption p {
+  color: white;
+  text-align: center;
+}
+
+figure:hover img {
+  transform: scale(1.4);
+  transition: all 300ms ease-in-out;
+}
+
+figcaption:hover {
+  opacity: 1;
+}
+
+.piesonice {
+  transform: rotate(-5deg);
+  font-family: "Sigmar One", cursive;
+  grid-area: text;
+  font-size: 8vmin;
+  margin: 0;
+  padding: 5px;
+  color: #1d9099;
+  text-shadow: 0.5vmin 0.4vmin 0 #e79c10, -0.5vmin -0.4vmin 0 #d53a33;
+}

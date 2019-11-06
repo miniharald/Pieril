@@ -1,0 +1,40 @@
+.fa-1x {
+  font-size: 1.5rem !important;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+.dark-blue-text {
+  color: darkblue;
+}
+.dark-pink-text {
+  color: #ac003a;
+}
+.dark-amber-text {
+  color: #ff6f00;
+}
+.dark-teal-text {
+  color: #004d40;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-brand img {
+  width: 15vw;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.hamburger .nav-link.active,
+.hamburger .show > .nav-link {
+  color: #007bff;
+  background-color: transparent;
+}
+
+.hamburger .nav-link {
+  padding: 0;
+}
